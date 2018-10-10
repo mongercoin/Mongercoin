@@ -39,7 +39,7 @@
 
 ***
 
-It is recommended [use the shell script](https://github.com/Monger/masternode.sh) to install a Monger Coin Masternode on a Linux server running Ubuntu 14.04 or 16.04
+It is recommended [use the shell script](https://mongercoin.com/masternode.sh) to install a Monger Coin Masternode on a Linux server running Ubuntu 14.04 or 16.04
 
 ***
 
@@ -56,8 +56,14 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/Monger/Monger-core.git
-    cd Monger-core
+    git clone https://github.com/mongercoin/Mongercoin.git
+    cd Mongercoin
+    chmod +x autogen.sh
+    cd Mongercoin/share
+    chmod +x genbuild.sh
+    cd Mongercoin/src/leveldb
+    chmod +x build_detect_platform
+    cd .. / cd ..
     ./autogen.sh
     ./configure
     sudo make install
@@ -82,7 +88,7 @@ Demon status:
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/Monger/Monger-core/releases
+https://github.com/mongercoin/Mongercoin/releases
 
 
 -
