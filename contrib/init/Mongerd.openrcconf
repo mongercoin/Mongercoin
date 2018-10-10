@@ -1,0 +1,26 @@
+# /etc/conf.d/Mongerd: config file for /etc/init.d/Mongerd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/Monger/Monger.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/Mongerd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Mongerd.pid"
+
+# Where to write Mongerd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/Mongerd"
+
+# User and group to own Mongerd process
+#BITCOIND_USER="Monger"
+#BITCOIND_GROUP="Monger"
+
+# Path to Mongerd executable
+#BITCOIND_BIN="/usr/bin/Mongerd"
+
+# Nice value to run Mongerd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

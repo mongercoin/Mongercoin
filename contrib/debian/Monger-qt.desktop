@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Monger
+Comment=Monger P2P Cryptocurrency
+Comment[fr]=Monger, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Monger, eşten eşe kriptografik sanal para birimi
+Exec=Monger-qt %u
+Terminal=false
+Type=Application
+Icon=Monger128
+MimeType=x-scheme-handler/Monger;
+Categories=Office;Finance;

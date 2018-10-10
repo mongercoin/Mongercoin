@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/Monger_bg.qm</file>
+        <file alias="ca">locale/Monger_ca.qm</file>
+        <file alias="cs">locale/Monger_cs.qm</file>
+        <file alias="da">locale/Monger_da.qm</file>
+        <file alias="de">locale/Monger_de.qm</file>
+        <file alias="en">locale/Monger_en.qm</file>
+        <file alias="en_US">locale/Monger_en_US.qm</file>
+        <file alias="es">locale/Monger_es.qm</file>
+        <file alias="fi">locale/Monger_fi.qm</file>
+        <file alias="fr_FR">locale/Monger_fr_FR.qm</file>
+        <file alias="hr">locale/Monger_hr.qm</file>
+        <file alias="it">locale/Monger_it.qm</file>
+        <file alias="ja">locale/Monger_ja.qm</file>
+        <file alias="ko_KR">locale/Monger_ko_KR.qm</file>
+        <file alias="nl">locale/Monger_nl.qm</file>
+        <file alias="pl">locale/Monger_pl.qm</file>
+        <file alias="pt">locale/Monger_pt.qm</file>
+        <file alias="pt_BR">locale/Monger_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Monger_ro_RO.qm</file>
+        <file alias="ru">locale/Monger_ru.qm</file>
+        <file alias="sk">locale/Monger_sk.qm</file>
+        <file alias="sv">locale/Monger_sv.qm</file>
+        <file alias="tr">locale/Monger_tr.qm</file>
+        <file alias="uk">locale/Monger_uk.qm</file>
+        <file alias="zh_CN">locale/Monger_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Monger_zh_TW.qm</file>
+    </qresource>
+</RCC>

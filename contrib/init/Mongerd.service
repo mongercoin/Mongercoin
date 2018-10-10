@@ -1,0 +1,26 @@
+[Unit]
+Description=Monger's distributed currency daemon
+After=network.target
+
+[Service]
+User=Monger
+Group=Monger
+
+Type=forking
+PIDFile=/var/lib/Mongerd/Mongerd.pid
+
+ExecStart=/usr/bin/Mongerd -daemon -pid=/var/lib/Mongerd/Mongerd.pid \
+          -conf=/etc/Monger/Monger.conf -datadir=/var/lib/Mongerd
+
+ExecStop=-/usr/bin/Monger-cli -conf=/etc/Monger/Monger.conf \
+         -datadir=/var/lib/Mongerd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
